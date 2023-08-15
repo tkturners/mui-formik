@@ -1,0 +1,40 @@
+{
+  "name": "formik-package",
+  "version": "0.0.0-development",
+  "description": "formik components with mui",
+  "main": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alitkturners/formik-package.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "author": "ali_hamza",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "semantic-release": "^21.0.7"
+  },
+  "dependencies": {
+    "@mui/material": "^5.14.5",
+    "formik": "^2.4.3",
+    "lodash": "^4.17.21",
+    "next": "^13.4.16",
+    "react-draft-wysiwyg": "^1.15.0"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
